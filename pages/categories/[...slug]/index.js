@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-function categories(){
+function Categories(){
 
     const router = useRouter();
     const {slug} = router.query;
@@ -17,4 +17,4 @@ function categories(){
     );
 }
 
-export default categories
+export default Categories

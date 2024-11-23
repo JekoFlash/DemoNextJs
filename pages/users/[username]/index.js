@@ -6,7 +6,7 @@ import Head from "next/head";
 
 const MyComponent = dynamic(() => import('../../../components/MyComponent'));
 
-function users(){
+function Users(){
     const router = useRouter();
     const [count, setCount] = useState(0)
     const {username} = router.query; 
@@ -38,4 +38,4 @@ function users(){
     );
 }
 
-export default users
+export default Users

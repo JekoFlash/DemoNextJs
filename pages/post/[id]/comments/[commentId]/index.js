@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-function comments(){
+function Comments(){
 
     const router = useRouter();
     const {id, commentId} = router.query;
@@ -11,4 +11,4 @@ function comments(){
     </div>
 }
 
-export default comments
+export default Comments
